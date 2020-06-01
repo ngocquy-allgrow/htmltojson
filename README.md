@@ -1,14 +1,3 @@
-# screenshot_api_dev
-Uri: localhost:3000/screeshot/[url]/[width]
-
-url: đường dẫn lấy chụp hình màn hình
-
-width: độ rộng màn hình
-
-Sử dụng puppelteer, chụp ảnh màn hình ( fullpage )
-
-Response: image screen shot
-
 ### Hướng dẫn cài đặt source code
 
 #### Step 1: Clone source code về
@@ -24,7 +13,7 @@ Response: image screen shot
 ```bash
     node app.js
 ```
-#### Api chụp màn hình
+#### Api html to json html-to-json
 ```bash
-    http://localhost:3000/screenshot?url=https://google.com&width=200
+    http://localhost:3000/html-to-json
 ```
